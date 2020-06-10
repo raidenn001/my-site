@@ -1,0 +1,155 @@
+body{
+  margin: 0;
+  text-align: center;
+
+
+}
+h1{
+  font-size: 4.375em;  /* 1em=16px* if used em then if there is em in parent it gets added to newly defiled em in in the child same with % and 1%=16px*/
+  font-family: 'Caveat', cursive;  /* rem= it is em but it ignores all parent settings */
+  color: #11999E;
+}
+h3{
+
+  font-family: sans-serif;
+  font-size: 1.75rem;
+  color: #11999E;
+}
+h2{
+  color: #11999E;
+  padding-bottom: 10px;
+}
+.para{
+  font-family: sans-serif;
+  color: #40514E;
+  font-weight: 500;
+}
+.intro{
+  width: 40%;
+  margin: auto;
+}
+.container{
+    background-color: #e4f9f5;
+  position: relative;
+  padding-top: 70px;
+}
+
+.middle-container{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.dp{
+  border-radius: 4%;
+}
+
+
+.mountain{
+    margin-bottom: 0;
+    height: 430px;
+
+}
+.top-cloud{
+  position: absolute;
+  top: 9%;
+  right: 27%;
+
+}
+.bottom-cloud{
+  position: absolute;
+  left: 27%;
+  top: 40%;
+}
+.skill-row{
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 1.2;
+  height: 200px;
+
+}
+.skill-row2{
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 1.2;
+}
+.computer{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 50%;
+
+}
+.gaming{
+  width: 30%;
+  float: right;
+
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  margin: 0;
+  padding: 40px 0 20px;
+}
+.copyright{
+  color: white;
+  margin-bottom: 20px;
+}
+.footer-link{
+  color: #11999E;
+  line-height: 2;
+  margin: 10px 15px;
+  font-size: 17px;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #EFF6F6;
+}
+hr{
+  border: dotted grey 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;;
+}
+.get{
+  padding-top: 5px;
+  font-size: 40px;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #11cdd4 5%, #28dbc6 100%);
+	background-color:#11cdd4;
+	border-radius:9px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	padding:7px 15px;
+	text-decoration:none;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #28dbc6 5%, #11cdd4 100%);
+	background-color:#28dbc6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
+
+
+
+/*  to undo float
+.paratext1{
+  clear: left;
+.paratext2{
+  clear: right;
+
+} */

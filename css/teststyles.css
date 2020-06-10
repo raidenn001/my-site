@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+}
+
+h1{
+  margin-top: 0;
+}
+
+.upper-container{
+  background-color: #c3edea;
+}
+.middle-container{
+  position: absolute;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  left: 200px;
+}
+.bottom-container{
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+.underline{
+  text-decoration: underline;
+}
+.testspan{
+  background-color: yellow;
+  /*visibility: hidden;*/
+}
+.inlinetest1{
+  display: inline-block;
+  background-color: orange;
+}
+.inlinetest2{
+  display: inline-block;
+  background-color: green;
+  padding: 10px;
+  height: 30px;
+
+}
+.image1{
+  position: relative;
+  left: 70px;
+}
+
+.imagetocheckabsolutiepositioning{
+  position: absolute;
+  left: 30px;
+  top:700px; /*absolute position of 700px relatiove to top of the body margin*/
+}
+.tocheckfixedpositioning{
+  width: 200px;
+  height: 100px;
+  background-color: brown;
+  position: fixed;
+  top: 80px;
+}
